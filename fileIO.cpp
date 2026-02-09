@@ -38,7 +38,10 @@ int main() {
 
 		int total = (intOne + intTwo);
 
-		std::cout << total << word << std::endl;
+		for (int i = 0; i < total; i++) {
+			std::cout << word << " ";
+		} // end for
+		std::cout << std::endl;
 	} // end while
 	return 0;
 	inFile.close();

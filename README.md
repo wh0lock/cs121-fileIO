@@ -32,8 +32,11 @@ int main(){
             
         int total = intOne + intTwo;
 
-        std::cout << word * total << " " << std::endl;
-    } // end for
+        for total, 
+            std::cout << word << " ";
+        // end for
+        std::cout << std::endl;
+    } // end while
     return 0;
     inFile.close();
 } // end main
